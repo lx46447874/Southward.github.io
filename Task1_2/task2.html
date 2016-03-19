@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+	
+	
+	<head>
+		<meta charset="utf-8">
+		<title>阶段一---任务二---html+css</title>
+		<style type="text/css">
+			body{
+				margin: 0;
+				background-color: #E8DDCB;
+				font-family: "microsoft yahei";
+				font-size: 12px;
+			}
+
+        	header{
+        		background: #036564; 
+        		box-shadow:1px 1px #aaa;
+        		padding: 7px;   /*该元素和元素内容的距离*/
+        	}
+        		
+        	header #nav{		
+        		margin-left: 300px;       		
+        	}
+        	
+        	header #nav1{		
+        		list-style-position: inside;
+        		position: absolute; 
+        		right: 400px;
+        		top: 30px;		
+        	}
+        	
+        	header #nav1 a:link{
+        		color: #ffffff;
+        	}
+        	
+        	header #nav1 a:visited{
+        		color: #000000;
+        	}
+        	
+        	header #nav1 li{
+        		margin-left: 10px; 
+        		display: inline;
+        	}
+        	
+        	
+        	article,aside{
+        		background-color: #DBD0A7;
+        		box-shadow: 2px 2px 2px #aaa;
+        		margin-left: 300px;
+        		margin-right: 300px;
+        		margin-top: 10px;
+        		margin-bottom: 10px;
+        		padding: 20px;
+        	}
+        	
+        	table{
+        		border: 1px #CDB280 solid;
+        		width: 100%;
+        		border-collapse: collapse;
+        		margin-top: 10px;
+        		
+        	}
+        	table tr,th,td{
+        		border: 1px #CDB280 solid;	
+        	}
+        	table thead{
+        		text-align: left;
+        		background-color: #CDB280;
+        	}
+        	table tfoot{
+        		background-color: #D2B48C;
+        		text-align: right;
+        	}
+        	
+        	
+        	article .name{
+        		display: inline;
+        	}
+        	
+        	article .date{
+        		display: inline;
+        	}
+        	
+        	article .content{
+        		font-size: 16px;
+        	}
+        	
+        	article .img{
+        		margin: 10px;
+        	}
+        	
+    		aside h1{
+    			border-left: 3px #033649 solid; 
+    			
+    			padding-left: 10px; 
+    			margin: 0;
+    		}
+    		
+        	aside .lable{
+        		display: inline-block; 
+        		vertical-align: top; 
+        		width: 40%;
+        		text-align: right; 
+        		margin-right: 5px;
+        	}
+        	
+        	aside .tip{
+        		font-size: 12px;
+        		color: 	#778899;
+        		margin-left: 520px;
+        	}
+        	
+        	aside #but{
+        		background-color: #033649;
+        		display: block;
+        		width: 100%;
+        		height: 30px;
+        		margin: 10px;
+        		border-radius: 7px;
+        		border: 0px solid;
+        		font-size: 16px;
+        		color: #ffffff;
+        	}
+        	
+        	footer{
+        		background: #000000; 
+        		color: #fff; 
+        		text-align: center; 
+        		padding: 12px;
+        	}
+		</style>
+	</head>
+	
+	
+	
+	
+	<body>
+	
+	<header>
+			<div id="nav">
+				<img src="http://ife.baidu.com/asset/img/logo.png" />
+			</div>
+			<!--
+				无顺序列表&有超链接
+    		-->
+			<ul id="nav1">
+				<a href="#"><li>导航链接一</li></a>
+				<a href="#"><li>导航链接二</li></a>
+				<a href="#"><li>导航链接三</li></a>
+				<a href="#"><li>导航链接四</li></a>
+			</ul>	
+	</header>
+	
+	
+	<article>
+		<h1>疯狂动物城</h1>	
+		<h2>三个谎言和一个事实</h2>
+		<p class="name">吕狗蛋</p>
+		&nbsp
+		<p class="date">2014-12-01</p>
+		
+		<!--
+    		作者：offline
+    		时间：2016-03-16
+    		描述：书名可以用cite引用起来
+    	-->
+		<p class="content">很久没有看到这样“零差评”的动画电影了，就像现在称赞美女一定要加上“零死角”的定
+			就像现在称赞美女一定要加上“零死角”的定语一样，这个世界上素来不会缺少苛刻挑
+			剔的批评家，却罕见让非议荡然无存的干净回敬。尤其值得一提的是，这部出产于迪
+			士尼的<a href="http://www.baidu.com">第55部动画长片</a>，本身已经不再带
+			有迪士尼的符号式桎梏，充满自我革命的蓬勃气色。商业市场就是如此奇妙，在经历
+			漫长的竞争与合作关系之后，迪士尼支付巨大的财务风险将皮克斯放入购物车，并挽
+			留住<b>约翰·拉赛特</b>成为两家公司共享的首席创意官，这种融合让迪士尼和皮克
+			斯都有了一些新的变化。
+		</br>
+		</br>
+			比如迪士尼出品的<cite>《无敌破坏王》</cite>，无论是从设定还是剧情而言，其实
+			有着皮克斯的<cite>《怪兽电力公司》</cite>的影子。而挂名于皮克斯旗下的<cite>
+				《勇敢传说》</cite>，则又隐隐透露出迪士尼擅长的女孩梦幻风情。当然，从结
+				果出发，皮克斯尚在消化和适应的阶段，2006年的《赛车总动员》作为迪士尼持续
+				多年力主推进的一个合作项目，最终票房数字为皮克斯迄今为止的倒数第二，2012
+				年的《勇敢传说》更是灾难，连《怪兽大学》都遭受牵连，没能趟过皮克斯8亿美元
+				的历史票房均线。有迪士尼的符号式桎梏，充满自我革命的蓬勃气色。商业市场就
+				是如此奇妙，在经历.
+	    </br>
+		<img class="img" src="https://img1.doubanio.com/view/thing_review/large/public/p106509.jpg" alt="呵呵呵" />
+		</br>
+		迪士尼的逆袭则有目共睹，这在2013年的《冰雪奇缘》上触及顶峰。只是，这部胜于美术
+			和音乐的“又一个公主的故事”依然没有离开迪士尼的舒适区，尽管它用力吸取了皮克斯
+			<q cite="http://www.baidu.com">用成人的视角构建童话，用孩童的语言娓娓叙事
+			</q>的特长，票房及衍生品的成绩也相当辉煌，但迪士尼的表现的确只能说是再度接近
+			了自己的极限，而非超越了它。
+		</p>
+		
+	</article>
+		
+		
+	<article>
+		<h1>疯狂动物城</h1>	
+		<h2>三个谎言和一个事实</h2>
+		<p class="name">吕狗蛋</p>
+		&nbsp
+		<p class="date">2014-12-01</p>
+		
+		<p class="content">
+			票房及衍生品的成绩也相当辉煌，但迪士尼的表现的确只能说是再度接近
+			了自己的极限，而非超越了它票房及衍生品的成绩也相当辉煌，但迪士尼的表现的确只能说是再度接近
+			了自己的极限，而非超越了它票房及衍生品的成绩也相当辉煌，但迪士尼的表现的确只能说是再度接近
+			了自己的极限，而非超越了它票房及衍生品的成绩也相当辉煌，但迪士尼的表现的确只能说是再度接近
+			了自己的极限，而非超越了它票房及衍生品的成绩也相当辉煌，但迪士尼的表现的确只能说是再度接近
+			了自己的极限，而非超越了它票房及衍生品的成绩也相当辉煌，但迪士尼的表现的确只能说是再度接近
+			了自己的极限，而非超越了它。
+		</p>
+		<!--
+    		作者：offline
+    		时间：2016-03-16
+    		描述：有序列表
+    	-->
+		<ol start="b" type="a">
+			<li>疯狂动物城</li>
+			<li>疯狂动物城</li>
+			<li>疯狂动物城</li>
+		</ol>	
+	
+	</article>	
+	
+	
+	<article>
+		<h1>图片列表</h1>	
+		<h2>三个谎言和一个事实</h2>
+		<p class="name">吕狗蛋</p>
+		&nbsp
+		<p class="date">2014-12-01</p>
+		<!--
+    		作者：offline
+    		时间：2016-03-16
+    		描述：带有标题的列表<dt></dt>
+    	-->
+		<dl>
+			<dt class="content">相关图片</dt>
+			<dd ><img class="img" src="https://img3.doubanio.com/view/thing_review/large/public/p106510.jpg" /></dd><br />
+			<dt class="content">相关图片</dt>
+			<dd><img class="img" src="https://img3.doubanio.com/view/thing_review/large/public/p106510.jpg" /></dd>
+			<dt class="content">相关图片</dt>
+			<dd><img class="img" src="https://img3.doubanio.com/view/thing_review/large/public/p106510.jpg" /></dd>
+			<dt class="content">相关图片</dt>
+			<dd><img class="img" src="https://img3.doubanio.com/view/thing_review/large/public/p106510.jpg" /></dd>
+		</dl>
+	</article>
+	
+	
+	
+	<article>
+		<h1>图片列表</h1>	
+		<h2>三个谎言和一个事实</h2>
+		<p class="name">吕狗蛋</p>
+		&nbsp
+		<p class="date">2014-12-01</p>
+		<!--
+    		作者：offline
+    		时间：2016-03-16
+    		描述：表格   也可以分成<thead></thead><tbody></tbody><tfoot></tfoot>
+    	-->
+		<table>
+		<caption><b><big>我是表格的标题</big></b></caption>
+		<thead>
+			<tr>
+			<th>表头A</th>
+			<th>表头B</th>
+			<th>表头C</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>呵呵呵呵</td>
+			<td>哈哈哈哈</td>
+			<td><a href="#">呵呵呵呵</a></td>
+		</tr>
+		<tr>
+			<td>哈哈哈哈</td>
+			<td>哈哈哈哈</td>
+			<td><a href="#">呵呵呵呵</a></td>
+		</tr>
+		<tr>
+			<td>呵呵呵呵</td>
+			<td>哈哈哈哈</td>
+			<td><a href="#">呵呵呵呵</a></td>
+		</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3">总共：100</td>
+			</tr>
+		</tfoot>
+		</table>
+		<br />
+		<br />
+	</article>
+	
+	
+	
+	
+	<aside>
+	<h1>这里以后是个侧栏，这是侧栏的标题</h1>
+	<!--
+    	作者：offline
+    	时间：2016-03-16
+    	描述：各种输入框框里的东西  都是写在<form></form>里
+    -->
+	<form action="http://www.baidu.com" method="get">
+		<div>
+			<div class="lable">用户名：</div>
+			<input id="username" name="username" type="text"/>
+		</div><br />
+
+		<div>
+			<div class="lable">邮箱：</div>
+			<input id="email" name="email" type="email"/><br />
+			<div class="tip">邮箱地址符合邮箱格式</div>
+		</div><br />
+		
+		<div>
+			<div class="lable">密码：</div>
+			<input id="key" name="key" type="password" />
+		</div><br />
+		
+		<div>
+			<div class="lable">性别：</div>
+			<lable>
+				<input id="man" name="man" type="radio" value="男"/>男
+			</lable>
+			<lable>
+				<input id="woman" name="woman" type="radio" value="女" />女
+			</lable>
+			
+		</div><br />
+		
+		<div>
+			<div class="lable">兴趣爱好：</div>
+			<lable>
+				<input id="inter1" name="inter" type="checkbox" value="" />足球
+			</lable>
+			<lable>
+				<input id="inter2" name="inter" type="checkbox" value="" />篮球
+			</lable>
+			<lable>
+			<input id="inter3" name="inter" type="checkbox" value="" />乒乓球
+			</lable>
+			<lable>
+			<input id="inter4" name="inter" type="checkbox" value="" />羽毛球
+			</lable>
+			<lable>
+			<input id="inter2" name="inter" type="checkbox" value="" />桌球
+			</label>
+		</div><br />
+		
+		<div>
+			<div class="lable">地区：</div>
+			<select id="skill" name="skills">
+				<option value="b">北京</option>
+				<option value="s">上海</option>
+				<option value="t">天津</option>
+			</select>
+		</div><br />
+		
+		<div>
+			<div class="lable">文件上传域：</div>
+			<input id="file" name="file" type="file" />
+		</div><br />
+		
+		<div id="">
+			<div class="lable">个人介绍：</div>
+			<textarea cols="50" rows="5"></textarea>
+		</div><br />
+		
+		
+		<input id="but" name="button" type="submit" value="提交" />
+		<input id="but" name="button" type="reset" value="重填" /><br />
+	
+	</form>
+	
+	</aside>
+	
+	
+	
+	<footer>
+		<p>版权所有&copy;</p>
+	</footer>
+	</body>
+	
+</html>
